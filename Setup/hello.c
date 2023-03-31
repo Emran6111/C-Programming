@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main ()
 {
-    printf("Hello");
+    char a ;
+    scanf("%c",&a);
+    printf("Hello %c",a);
     return 0;
 }
